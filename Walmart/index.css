@@ -1,0 +1,462 @@
+ *{
+    position: static!important;
+    top: 0%!important;
+    word-spacing: 1px;
+    letter-spacing: .2px;
+    margin: 0;
+    padding: 0;
+}
+.header-1{
+    background-color:#041e42;
+    height: 36px;
+    width: 100%;
+    display: flex;
+}
+.header-1 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 8px 24px 14px 23px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.first-a:hover{
+    border-bottom: 3px solid #043170;
+}
+.second-a {
+    border-bottom: 3px solid yellow;
+}
+/* End of first header */
+
+/* Start of second header (name=header-2) */
+.second_container{
+    margin: 0px;
+    padding:0px;
+}
+.header-2{
+    padding: 10px 20px 10px 20px;
+    height: 40px;
+    width: 97%;
+    background-color:#041e42 ;
+    display: flex;
+    align-items: center;
+}
+.null div{
+    width: 18px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+}
+.null:hover{
+    cursor: pointer;
+}
+.walmart-logo img{
+    display: block;
+    padding: 15px 0px 12px 30px;
+}
+.search_container{
+    position: relative!important;
+    left: 13%;
+    bottom: 4px;
+}
+input[type="text"]
+{
+    padding: 5px;
+    font-size: 14px;
+    border: 0px solid grey;
+    float: left;
+    width: 451px;
+    height: 26px;
+    background: #fff;
+}
+.button_a button{
+    float: left;
+    width: 30px;
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+    border: 0px solid grey;
+    border-left: none;
+    cursor: pointer;
+    
+}
+button.button2{
+    background-color: #ffc220;
+    border-radius: 0px 20px 20px 0px;
+    height: 36px;
+    width: 44px;
+    border: none;
+
+}
+.section2_container{
+    height: 410px;
+}
+button.button1{
+    height: 36px;
+    background-color: #fff;
+    width: 44px;
+    border-radius:  20px 0px 0px 20px;
+    float: left;
+    border: none;
+}
+.fas{
+    color:black ;
+    font-size: 15px;
+}
+.fa{
+    color: black;
+    font-size: 12px;
+    position: relative!important;
+    bottom: 3px;
+}
+.account-myitem-cart{
+    display: flex;
+    flex-direction: row;
+    position: relative!important;
+    left: 480px;
+    color: white;
+    font-size: 14px;
+    white-space: warp;
+}
+.account-myitem-cart p:hover , .account-myitem-cart i:hover{
+ cursor: pointer;
+}
+.account{
+    display: flex;
+    position: relative!important;
+    right: 85px;
+}
+.my-items{
+    display: flex;
+    position: relative!important;
+    right: 50px;
+}
+.cart{
+    display: flex;
+    position: relative!important;
+    right: 15px;
+}
+.account-myitem-cart p{
+   margin:10px 0px 10px 0px; 
+}
+.account i{
+    color:white !important;
+    height: 15px;
+    position: relative!important;
+    top: 13px;
+    right: 10px;
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+}
+.my-items i{
+    color:white !important;
+    height: 15px;
+    position: relative!important;
+    top: 13px;
+    right: 10px;
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+}
+.cart i{
+    color:white !important;
+    height: 15px;
+    position: relative!important;
+    top: 13px;
+    right: 10px;
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+}
+.scroll{
+    position: sticky!important;
+    top:0px!important;
+}
+.dropdown1-image img:hover{
+    cursor: pointer;
+}
+.walmart-logo:hover{
+    cursor: pointer;
+}
+.section1{
+    background-color: #0071DC;
+    height: 44px;
+    padding: 8px 16px;
+    float: none;
+}
+/* End of second header */
+
+
+/* Start of section1  */
+.main_content{
+    margin: 0px 290px 0px 290px;
+}
+.section_container{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+}
+.content span{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    color: white;
+    font-size: 16px;
+}
+.learn_more{
+    font-size: 14px!important;
+    padding-top:3px!important ;
+    border-bottom: 1px solid #fff;
+}
+.learn_more:hover{
+    cursor: pointer;
+}
+.section2{
+    background-color: #0071DC;
+    height: 410px;
+    width:100%;  
+}
+.button_a{
+    padding-top: 30px;
+}
+.button_a button{
+    width: 95px;
+    background-color:#0071DC ;
+    height: 36px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+
+}
+.Save{
+    text-align: center;
+}
+.image_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 383px;
+    width: 1349px;
+    padding-top: 50px;
+}
+.image_section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.image_section1 p{
+    margin-top: 15px;
+}
+.image_section1 p:hover{
+    cursor: pointer;
+}
+.gift{
+    padding-top: 15px;
+    margin: 0;
+}
+.image_section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.b_g{
+    background-color: white;
+}
+.image_section2 p{
+    margin-top: 15px;
+}
+.image_section2 p:hover{
+    cursor: pointer;
+}
+.section3_container{
+    background-color: #f5f5f5;
+    height: 350px;
+    margin: 32px 0px 0px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.pickup{
+    background-color: white;
+    height: 332px;
+    width: 396px;
+    padding:16px;
+}
+.earn{
+    background-color: white;
+    height: 332px;
+    width: 396px;
+    padding:16px;
+}
+.new{
+    background-color: white;
+    height: 332px;
+    width: 396px;
+    padding:16px;
+}
+.earn img{
+    display:inline-flex;
+    box-sizing: border-box;
+}
+.abcd{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.abc{
+    /* position: -webkit-sticky; */
+    text-align: center;
+    margin: 45px 45px 16px 45px;
+
+}
+.text{
+    text-align: center;
+}
+.abcde{
+    align-self:center;
+    /* border: 2px solid black; */
+    background-color: white;
+}
+.abcde1 button{
+    width: 130px;
+    height: 30px;
+    color: black;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.abcde2 button{
+    width: 110px;
+    height: 30px;
+    color: black;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.abcde3 button{
+    width: 110px;
+    height: 30px;
+    color: black;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+.text_abc{
+    font-size: 20px;
+    font-weight: bold;
+}
+.text_abc1{
+    font-size: 15px;
+}
+.font-size{
+    font-size: 20px;
+    font-weight: bold;
+}
+.section4{
+    height: 444px;
+    width: 100%;
+    padding:50px 0px 0px 0px;
+}
+.xyz1{
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 32px;
+}
+.image_last{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.one-text{
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.one img:hover{
+    cursor: pointer;
+}
+.xyz2{
+    margin: 10px 0px 10px 0px;
+    text-align: center; 
+    word-spacing: 2px; 
+    cursor: pointer;  
+}
+.two img:hover{
+    cursor: pointer;
+}
+.three img:hover{
+    cursor: pointer;
+}
+.four img:hover{
+    cursor: pointer;
+}
+.social_media{
+    margin: 15px 0px 0px 0px ;
+    
+}
+.social_media input[type="text"]{
+    padding: 5px;
+    font-size: 14px;
+    float: left;
+    padding: 0px 5px 0px 30px ;
+    width: 444px;
+    height: 40px;
+    background-color:transparent;
+    border:1px solid rgb(192, 190, 190);
+}
+footer{
+    background-color:white;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width:260px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo i:hover{
+    cursor: pointer;
+}
+.social_media button{
+    height: 42px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border:0px solid black;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.ten{
+    font-weight: bold;
+    font-size: 16px;
+}
+.nine{
+    padding-top: 3px;
+}
+.nine p{
+    display:block;
+    padding-top: 15px;
+    font-size: 13px;
+    color: rgb(34, 32, 32);
+}
+.nine p:hover{
+    display: inline-block;
+    border-bottom: 1px solid rgb(32, 30, 30);
+}
